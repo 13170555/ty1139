@@ -8,32 +8,43 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <style>
     body {margin:0;font-family:Arial,Helvetica,sans-serif;background:#0b0b0b;color:#fff;}
-    header {padding:40px;text-align:center;background:linear-gradient(135deg,#1f1f1f,#000);}
+    header {padding:40px 20px;text-align:center;background:linear-gradient(135deg,#1f1f1f,#000);}    
     nav a {margin:0 12px;color:#00e5ff;text-decoration:none;font-weight:bold;}
     section {padding:60px 20px;max-width:1100px;margin:auto;}
     h2 {color:#00e5ff;margin-bottom:20px;}
     .grid {display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px;}
-    .card {background:#151515;padding:20px;border-radius:12px;box-shadow:0 0 20px rgba(0,229,255,0.15);}
+    .card {background:#151515;padding:20px;border-radius:12px;box-shadow:0 0 20px rgba(0,229,255,0.15);}    
     footer {padding:30px;text-align:center;background:#000;color:#888;}
+    .logo {width:120px;margin-bottom:20px;}
+    .btn {display:inline-block;margin:10px;padding:14px 26px;border-radius:30px;background:#00e5ff;color:#000;font-weight:bold;text-decoration:none;}
+    .btn.telegram {background:#2ca5e0;color:#fff;}
+    .contact p {margin:8px 0;}
   </style>
 </head>
 <body>
 
 <header>
+  <!-- LOGO：上传 logo.png 后自动显示 -->
+  <img src="logo.png" alt="天翼娱乐 Logo" class="logo" />
   <h1>天翼娱乐</h1>
   <p>高品质在线娱乐体验平台</p>
   <nav>
     <a href="#home">首页</a>
     <a href="#about">关于我们</a>
     <a href="#services">服务中心</a>
-    <a href="#news">新闻动态</a>
     <a href="#contact">联系我们</a>
   </nav>
+  <div>
+    <a class="btn" href="https://www.ty1139.com" target="_blank">官方注册</a>
+    <a class="btn telegram" href="https://t.me/zheng373" target="_blank">Telegram 客服</a>
+  </div>
 </header>
 
 <section id="home">
   <h2>品牌介绍</h2>
   <p>天翼娱乐（ty1139.com）专注于打造多元化、高性价比的线上娱乐服务，涵盖游戏、直播与精彩活动。</p>
+  <!-- 图片示例：上传 banner.jpg 后显示 -->
+  <img src="banner.jpg" alt="天翼娱乐 Banner" style="width:100%;border-radius:16px;margin-top:20px;" />
 </section>
 
 <section id="about">
@@ -60,16 +71,15 @@
   </div>
 </section>
 
-<section id="news">
-  <h2>天翼娱乐最新资讯</h2>
-  <p>关注天翼娱乐新闻，掌握平台最新动态与活动公告。</p>
-</section>
-
-<section id="contact">
+<section id="contact" class="contact">
   <h2>联系天翼娱乐</h2>
-  <p>官网：ty1139.com</p>
-  <p>Email：support@ty1139.com</p>
-  <p>Telegram / 社交媒体：请联系客服获取</p>
+  <p>🌐 官方注册：www.ty1139.com</p>
+  <p>📧 邮箱：shijiajia56@gmail.com</p>
+  <p>📨 Telegram：@zheng373</p>
+  <p>💬 经理微信：shizhengcai373</p>
+  <p style="margin-top:20px;">
+    <a class="btn telegram" href="https://t.me/zheng373" target="_blank">立即联系 Telegram</a>
+  </p>
 </section>
 
 <footer>
